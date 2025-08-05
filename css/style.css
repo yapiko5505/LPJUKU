@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+/* 全体 */
+
+html {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+img {
+    /* width: 50%;  */
+}
+
+/* header*/
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    /* width: 50px; */
+}
+
+
+.logo img {
+    
+     max-width: 20%;
+    /* margin-top: 10px; */
+}
+
+/* first */
+
+.first-container {
+    
+  text-align: center;
+  margin-bottom: 100px;
+  position: relative;
+  width: 1200px; /* 例 */
+  height: 600px; /* 例 */
+}
+
+.first-container img {
+
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: block; /* 画像の余白をなくす */
+  margin-left: 100px;
+}
+
+.first-text {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: translate(-20%, -15%); 
+  color: black;
+  
+  padding: 10px;
+  z-index: 2; /* 画像より上に表示 */
+}
+
+/* first-button */
+
+.button2 {
+    width: 1200px;
+    text-align: center;
+    font-size: 3rem;
+    background: #006666;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 300px;
+    margin-left: 180px;
+}
+
+.button2:hover {
+    background: #D98E04;
+}
+
+/* point */
+
+.title-teme {
+  
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+
+.point-info {
+
+    
+    position: relative;
+    padding-top: 4px;
+    margin-left: 400px; 
+    margin-bottom: 40px;
+}
+
+.point-number {
+
+    text-align: center;
+    background: #D98E04;
+    border-radius: 50%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+
+.point-title {
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: 25px;
+    
+}
+
+.point-content {
+    
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.ponit-text {
+    padding: 0 30px;
+    width: 50%;
+}
+
+.point-image {
+    text-align: center;
+    width: 50%;
+}
+
+.model img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.model3 img {
+    width: 5%;
+}
+
+/* voice */
+
+.voice-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.voice-part {
+    margin-left: 100px;
+    display: flex;
+    width: 1200px;
+    align-items: center;
+}
+
+/* action */
+
+.action-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.action-text {
+    text-align: center;
+}
+
+table {
+    margin-left: 600px;
+    border-style: solid;
+}
+
+tr {
+    border-width: 1px;
+    border-style: solid;
+}
+
+th {
+    border-width: 1px;
+    border-style: solid;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* call */
+
+.call {
+    margin-top: 100px;
+}
+
+.call-container {
+
+  
+  margin-bottom: 100px;
+  position: relative;
+  width: 1000px; /* 例 */
+  height: 600px; /* 例 */
+}
+
+.call-container img {
+  margin-left: 300px;
+  width: 100%;
+  height: 100%;
+  display: block; /* 画像の余白をなくす */
+}
+
+.call-text {
+  margin-left: 250px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: translate(-20%, -15%); 
+  color: black;
+  
+  padding: 10px;
+  z-index: 2; /* 画像より上に表示 */
+}
+
+/* cta-button */
+
+.button3 {
+
+    width: 1200px;
+    text-align: center;
+    font-size: 3rem;
+    background: #006666;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 300px;
+    margin-left: 180px;
+}
+
+.button3:hover {
+    background: #D98E04;
+}
+
+
+/* 会社概要 */
+
+.company-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* プライバシーポリシー */
+
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    background: #006666;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+
+/* mobile */
+
+@media (max-width: 760px) {
+
+    img {
+    width: 50%; 
+    }
+
+    /* header */
+
+    .main-nav {
+    display: grid;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    /* width: 50px; */
+}
+
+
+    .logo img {
+    
+     max-width: 0.05%;
+    /* margin-top: 10px; */
+}
+
+/* first */
+
+.first-container {
+    
+  /* text-align: center; */
+  margin-bottom: 50px;
+  position: relative;
+  width: 600px; /* 例 */
+  height: 400px; /* 例 */
+}
+
+.first-container img {
+
+  /* text-align: center; */
+  width: 100%;
+  height: 100%;
+  display: block; /* 画像の余白をなくす */
+  margin-left: 50px;
+}
+
+.first-text {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  transform: translate(-55%, -35%); 
+  color: #006666;
+  
+  padding: 10px;
+  z-index: 2; /* 画像より上に表示 */
+}
+
+.first-catch h1 {
+    font-size: 1rem;
+}
+
+.first-catch h2 {
+    font-size: 1rem;
+}
+
+
+    /* first-button */ 
+
+    .button2 {
+        width: 10%;
+        text-align: justify;
+        margin-left: 100px;
+        font-size: 1rem;
+         padding: 10px 10px;
+    }
+
+    /* point */
+
+    .title-teme {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+   
+    }
+
+    .point-info {
+    margin-left: 50px; 
+    margin-bottom: 40px;
+    }
+
+    .point-content {
+        display: grid;
+    }
+
+    /* voice */
+
+    .voice-part {
+        display: grid;
+    }
+
+    /* action */
+
+    .action-text {
+    text-align: grid;
+    }
+
+    table {
+        margin-left: 100px;
+        border-style: solid;
+    }
+
+    /* call */
+
+    .call-container img {
+    margin-left: 50px;
+    width: 60%;
+    display: block; /* 画像の余白をなくす */
+    }
+
+    .call-text {
+    margin-left: 50px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-80%, -30%); 
+    color: #006666;
+  
+  padding: 10px;
+  z-index: 2; /* 画像より上に表示 */
+}
+
+
+
+
+
+
+    /* cta-button */
+
+     .button3 {
+        width: 10%;
+        text-align: justify;
+        margin-left: 100px;
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+
+
+}
